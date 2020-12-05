@@ -10,14 +10,6 @@ from datetime import datetime
 from random import choice
 from dotenv import load_dotenv
 
-#Check if the .env file exists, if not, create it
-if not os.path.exists('./.env'):
-	env = open(".env", "w")  
-	env.write("BOT_TOKEN=")
-	env.close()
-	print("Please add your Bot Token to the .env file\nExiting...")
-	exit()
-
 
 #Load the bot token from the .env file
 load_dotenv()

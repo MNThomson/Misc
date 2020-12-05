@@ -8,7 +8,7 @@ Clone this repository into any folder and install the required dependencies:
 
 ## Bot Token
 
-On the first run, a `.env` file will be created in the base directory. Add your discord bot token which was obtained from the Discord Developer portal.
+Before the first run, put your bot token in a `.env` file in the base directory. Add your discord bot token which was obtained from the Discord Developer portal. A `.sample_env` is provided.
 ```
 BOT_TOKEN=
 ```
