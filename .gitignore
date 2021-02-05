@@ -1,3 +1,15 @@
-/01 - Discord Bot/.env 
-/01 - Discord Bot/reaction_roles.txt 
+#General
 /Todo.md
+*.psd
+*.exe
+
+#Discord Bot
+/01 - Discord Bot/.env 
+/01 - Discord Bot/reaction_roles.txt
+
+#Look Up - Pyinstaller output
+/02 - Look Up/__pycache__
+/02 - Look Up/build
+/02 - Look Up/pywin32
+/02 - Look Up/LookUp.spec
+/02 - Look Up/Build.bat
